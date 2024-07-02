@@ -30,6 +30,9 @@ createGrid(16);
 const cells = document.querySelectorAll(".row");
 cells.forEach((cell) => {
     cell.addEventListener("mouseover",() => {
-        cell.style.background = "red";
+        const r = Math.floor(Math.random() * 256);
+        const g = Math.floor(Math.random() * 256);
+        const b = Math.floor(Math.random() * 256);
+        cell.style.background = "rgb(" + r + "," + g + "," + b + ")";
     });
 });
