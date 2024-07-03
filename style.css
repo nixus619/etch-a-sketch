@@ -1,6 +1,19 @@
 body{
     background-color: cadetblue;
+    display:flex;
+    gap: 10px;
+    flex-direction: column;
     
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    gap:10px;
 }
 .container{
     display:flex;
@@ -8,6 +21,7 @@ body{
     width: 800px;
     height: 800px;
     border: 1px solid black;
+    background-color:white;
 }
 
 /*.square-element {
